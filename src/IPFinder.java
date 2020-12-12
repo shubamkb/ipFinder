@@ -1,3 +1,4 @@
+package Shubham_k_Project;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.InetAddress;
@@ -9,11 +10,11 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-public class IPFinder extends JFrame implements ActionListener{  
+public class IP_finder extends JFrame implements ActionListener{  
     JLabel l;  
     JTextField tf;  
     JButton b;  
-public IPFinder(){  
+public IP_finder(){  
     super("IP Finder Software-");  
     l=new JLabel("Enter URL:");  
     l.setBounds(50,70,150,20);;  
@@ -41,6 +42,6 @@ public void actionPerformed(ActionEvent e){
     }  
 }  
 public static void main(String[] args) {  
-    new IPFinder();  
+    new IP_finder();  
 }  
 }
